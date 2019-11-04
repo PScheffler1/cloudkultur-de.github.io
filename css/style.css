@@ -1,0 +1,85 @@
+body, html, .sans{
+	font-family: freight-sans-pro, sans-serif;
+}
+body, html{
+	padding: 0;
+	margin: 0;
+	height:100%;
+	background: url("../img/bg-right.jpg") no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+h1, h2, h3{
+	margin: 0;
+}
+h1{
+	color: #eee;
+}
+h2{
+	font-size: 24px;
+}
+.bold{
+	font-weight: 700;
+}
+.light{
+	font-weight: 100;
+}
+.sans{
+	font-family: freight-sans-pro, sans-serif;
+}
+.handwritten{
+	font-family: six-hands-brush, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+}
+.left{
+	width: 50%;	
+	background: #fff;
+	overflow-x: hidden;
+}
+.inner{
+	margin: 100px;
+}
+.logo{
+	margin-bottom: 120px;
+	width: 200px;
+}
+.uppercase{
+	text-transform: uppercase;
+}
+.gray{
+	color: #777;
+}
+a{
+	text-decoration: none;
+	color: #000;
+	font-size: 24px;
+}
+@media (min-width: 1025px){
+	.left{
+		width: 50%;	
+		background: #fff;
+		overflow-x: hidden;
+	}
+	.inner{
+		margin: 100px;
+	}
+	.headline-large{
+		font-size: 140px;
+	    line-height: 103px;
+	}
+}
+@media (min-width: 0px) and (max-width: 1024px){
+	.left{
+		width: 100%;	
+		background: #fff;
+		overflow-x: hidden;
+	}
+	.inner{
+		margin: 70px;
+	}
+	.headline-large{
+		font-size: 80px;
+	    line-height: 103px;
+	}
+}
