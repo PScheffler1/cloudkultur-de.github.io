@@ -707,6 +707,16 @@ footer a{
     float: left;
 }
 
+.work-areas .area .wide-text, .hiring .wide-text{
+    width: 100%;
+    float: left;
+}
+
+.work-areas .area .wide-text ul, .hiring .wide-text ul{
+    margin-left: 0; 
+    padding-left: 16px;
+}
+
 .work-areas .area .text h6{
     font-size: 15px;
     letter-spacing: 2px;
